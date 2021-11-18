@@ -36,16 +36,16 @@ Surface plane
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://garoaskincare.com/
+https://worldofwarcraft.com/en-us/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/wowhomepage.jpg" width="375px" alt="De homepagina van World of Warcraft">
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
-About page
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Hunter class page
+<img src="images/hunterpage.jpg" width="375px" alt="Een beschrijving van de class hunter">
 
 
 
