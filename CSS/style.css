@@ -54,8 +54,9 @@ h1 {
 }
 
 h2 {
-    color: white;
+    color: #F8B700;
     font-family: "Semplicita Pro";
+
 }
 
 h3 {
@@ -64,6 +65,7 @@ h3 {
     font-size: 12.8px;
     padding-left: 15px;
     padding-right: 30px;
+    text-transform: uppercase;
 }
 
 p {
@@ -200,12 +202,9 @@ main > section:nth-of-type(2) {
     padding: 20px;
 }
 
-
-
 main > section:nth-of-type(2) article:first-of-type img,
 main > section:nth-of-type(2) article:nth-of-type(2) img {
     width: 100%;
-    border: 1px solid #504137;
     z-index: -1;
     position: relative;
 }
@@ -237,22 +236,54 @@ main > section:nth-of-type(2) > article:nth-of-type(2) p:nth-of-type(2) {
 
 main > section:nth-of-type(2) > article:first-of-type p:nth-of-type(2) {
     top: 65em;
-    background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,0.9559174011401436) 0%, rgba(0,0,0,0.9475140397956058) 40%, rgba(0,0,0,0.7570378493194152) 100%);
-padding-bottom: 23px;
-padding-right: 135px;
+    /* background: rgb(0,0,0); */
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.42) 24%,rgba(0,0,0,0.59) 38%,rgba(0,0,0,0.75) 79%,rgba(0,0,0,0.89) 100%); */
+    padding-bottom: 23px;
+    padding-right: 135px;
 }
+
+main > section:nth-of-type(2) > article:first-of-type,
+main > section:nth-of-type(2) > article:nth-of-type(2) {
+    background: rgb(0,0,0);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.08) 46%,rgba(0,0,0,0.59) 68%,rgba(0,0,0,0.75) 91%,rgba(0,0,0,0.68) 100%);
+    border: 1px solid #504137;
+    margin-bottom: 15px;
+}
+
 
 main > section:nth-of-type(2) > article:nth-of-type(2) p:nth-of-type(2) {
     top: 81em;
 }
 
-main > section:nth-of-type(2) > article:first-of-type,
-main > section:nth-of-type(2) > article:nth-of-type(2) {
-    padding-bottom: 15px;
+main > section:nth-of-type(3) > article:first-of-type {
+    background-color: #211510;
 }
 
-main > section:nth-of-type(3) > article:first-of-type > img {
+main > section:nth-of-type(3) > p {
+    font-family: "Open Sans"
+}
+
+main > section:nth-of-type(3) > article > img {
+    border-top: 1.2px solid #504137;
+    border-bottom: 1.2px solid #504137;
+}
+
+main > section:nth-of-type(3) > article:first-of-type > p:first-of-type {
+    color: #ebdec2;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+main > section:nth-of-type(3) > article:first-of-type > h2 {
+    text-align: center;
+}
+
+main > section:nth-of-type(3) > article:first-of-type > p:nth-of-type(2) {
+    color: #ebdec2;
+    text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 5em;
 }
 
 /* .imagewtext {
