@@ -60,13 +60,11 @@ Hunter class page
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/dynamisch1.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -80,7 +78,10 @@ Hunter class page
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik begon heel goed met de html neerzetten. Dit ging allemaal vrij soepel doordat ik de breakpointschetsen had gemaakt. Ik vond het alleen wel wat 
+lastiger om in te komen met de css. Hier liep ik dan bijvoorbeeld al vast met images de juiste grootte geven. De eerste image op mijn homepage 
+stond bijvoorbeeld niet goed. Hij stond niet over de hele breedte van het scherm. Ook had ik veel moeite met de header. Ook hier werden de icoontjes
+(images) op een of andere manier niet de juiste grootte. Ook was het weer even geleden dat ik flexbox had gebruikt, dus hier moest ik ook even mee spelen. 
 
 
 ### Agenda voor meeting
@@ -92,14 +93,14 @@ samen met je groepje opstellen
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
+Ik wilde weten of ik goed op weg was. Ik had nog geen specifieke vragen over een bepaald element of onderdeel dat niet werkte, aangezien ik vooral nog html had. 
+
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Teveel ruimte aan de zijkanten kon ik oplossen door een standaard code toe te voegen aan de bovenkant van het css bestandje. 
+- Ik hoef niet de volledige pagina van de site na te maken, maar ik kan ook delen gebruiken, omdat sommige blokken zich toch herhalen. 
 
 </details>
 
@@ -113,7 +114,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het positioneren ging nu veel makkelijker en alles stond in principe op de goede plek (de delen die ik tot nu toe had uitgewerkt dan). 
+Ook was ik heel tevereden met het feit dat het bovenste stuk van de website al bijna op een exacte kopie van de echte website begon te lijken. 
+Ik heb veel geexperimenteerd met afstanden, sizes en borders om het zo goed mogelijk te laten lijken en dit heeft dus goed uitgepakt uiteindelijk. 
+
+Er was eigenlijk 1 ding waar ik voornamelijk mee zat deze week en dat was een halfdoorzichtige gradient toepassen op een afbeelding. Dit heeft de 
+site van World of Warcraft ook om daar de tekst beter leesbaar te maken. 
 
 
 ### Agenda voor meeting
@@ -125,14 +131,19 @@ samen met je groepje opstellen
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
+Ik wilde weten hoe ik de gradient achtergrond moest toepassen. 
+
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Op sommige plekken had ik een article met sections erin en op andere plekken had ik een section met articles erin. Dit moet consistent worden.
+Dus alle parents moeten of articles of sections zijn. 
+- De h2 en h3 op de homepage moet ik omdraaien. Hetgeen dat nu een h3 is, is eigenlijk belangrijker qua inhoud/kopje. Met css moet ik de tekst dan groter of kleiner maken.
+- Ik heb nu nog pixels gebruikt om afstanden en groottes aan te geven. Dit moet ik veranderen naar em (ook in de header moet ik hierop letten bij de icons). 
+- Ik moet de fonts anders inladen i.p.v. met fontface.
+- Als ik iets positioneer met position:absolute, moet ik het aangeven door middel van procenten. 
+- Ik moet nog javascript toevoegen aan mijn project. 
 
 </details>
 
@@ -148,28 +159,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Images worden niet voorgelezen
+Wanneer de screenreader over een afbeelding gaat, wordt deze niet voorgelezen, waardoor de gebruiker niet weet wat voor soort afbeelding hij voor zich heeft.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit kan opgelost worden door de images een 'alt' mee te geven.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Links
+De screenreader noemt op dat het gaat om een link en leest de inhoud van de link voor waardoor het duidelijk is waar je geen gaat. 
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### States
+Je weet niet helemaal precies wanneer je op een bepaald element zit en wanneer deze bijvoorbeeld actief is. 
+Dit kan ik oplossen door in de css nog vormgeving aan alle states mee te geven. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
+#### Kleurcontrast. 
+Met de colour contrast analyzer heb ik elementen op mijn website geanalyseerd, maar het bleek dat alles genoeg contrast heeft. Dit deel is dus goed toegankelijk. 
+<img src="./images/kleurcontrast1.JPG" width="375px" alt="Een goed kleurcontrast van tekst op de achtergrond">
+<img src="./images/kleurcontrast2.JPG" width="375px" alt="Een goed kleurcontrast van tekst op de achtergrond">
+
 
 </details>
 
@@ -183,7 +192,9 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb een grote sprong gemaakt, doordat ik mijn eerste pagina helemaal af had en ook al een klein beginnetje van de tweede had. 
+Het ging vooral goed met de teksten vormgeven en bepaalde articles of sections mooi neerzetten. Het was bij de tweede pagina wel lastiger
+om de teksten exact te krijgen als op de echte site. Iets werkte daar niet helemaal mee en ik kon er niet achterkomen wat het was. 
 
 
 ### Agenda voor meeting
@@ -195,14 +206,13 @@ samen met je groepje opstellen
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
+Ik wilde weten hoe ik bullets in een ul kon vervangen door images. Hier heb ik een poosje mee gezeten en van alles geprobeerd. 
+
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik moet opletten dat ik mijn code netjes en overzichtelijk houd. Veel stukken staan nu nog door elkaar of dubbel erin. 
 
 </details>
 
@@ -216,11 +226,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Wat goed ging was het begin maken aan de tweede pagina. Dit ging soepel, omdat ik veel dingen kon overnemen van de eerste pagina. Veel van die dingen had ik dus al gedaan,
+waardoor ik ze nog wist. Wanneer ik echter meer naar beneden kwam op de pagina, werd het wat moeilijker. Hier kwamen twee secties waar ik flexbox/grid moest gebruiken om alles
+goed neer te zetten en dit vond ik erg lastig. 
 
 ### Screenshot(s)
+<img src="./images/eindproduct1.JPG" width="375px" alt="Screenshot van de homepage">
+<img src="./images/eindproduct2.JPG" width="375px" alt="Screenshot van de homepage">
+<img src="./images/eindproduct3.JPG" width="375px" alt="Screenshot van de homepage">
+<img src="./images/eindproduct4.JPG" width="375px" alt="Screenshot van de hunter page">
+<img src="./images/eindproduct5.JPG" width="375px" alt="Screenshot van de hunter page">
+<img src="./images/eindproduct6.JPG" width="375px" alt="Screenshot van de hunter page">
+<img src="./images/eindproduct7.JPG" width="375px" alt="Screenshot van de hunter page">
 
-hier screenshot(s) van je eindresultaat
 
 </details>
 
