@@ -40,12 +40,12 @@ https://worldofwarcraft.com/en-us/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
-<img src="../images/smallhomepage.png" width="375px" alt="De homepagina van World of Warcraft">
+<img src="images/smallhomepage.png" width="375px" alt="De homepagina van World of Warcraft">
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Hunter class page
-<img src="../images/smallhunterpage.png" width="375px" alt="Een beschrijving van de class hunter">
+<img src="images/smallhunterpage.png" width="375px" alt="Een beschrijving van de class hunter">
 
 
 
