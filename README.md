@@ -176,6 +176,8 @@ Dit kan ik oplossen door in de css nog vormgeving aan alle states mee te geven.
 
 #### Kleurcontrast. 
 Met de colour contrast analyzer heb ik elementen op mijn website geanalyseerd, maar het bleek dat alles genoeg contrast heeft. Dit deel is dus goed toegankelijk. 
+
+
 <img src="./images/kleurcontrast1.JPG" width="375px" alt="Een goed kleurcontrast van tekst op de achtergrond">
 <img src="./images/kleurcontrast2.JPG" width="375px" alt="Een goed kleurcontrast van tekst op de achtergrond">
 
