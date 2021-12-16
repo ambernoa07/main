@@ -26,13 +26,17 @@
 
 
 
-/* Stanaard code */
+/* Standaard code */
 
 body {
     background-color: black;
     margin-left: 0;
     margin-top: 0;
     width: 100vw;
+}
+
+.autumnbody {
+    background-color: #361404;
 }
 
 header {
@@ -45,23 +49,54 @@ header {
     justify-content: space-between;
     list-style-type: none;
     border-bottom: 1.1px solid #352011;
+    position: sticky;
+}
+
+nav {
+    display: none;
+    position: fixed;
+    transform: translateX(-100%);
+    margin-top: 2.95em;
+    margin-right: 3em;
+}
+
+
+
+li {
+    font-family: "Semplicita Pro", "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: #f8b700;
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(top,#efd100,#e2a233 19%,#f0c328 30%,#fff1a3 43%,#ffe13e 50%,#fff 51%,#fff);
+    background-size: 1em 2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+.menuopen {
+    transform: translateX(0);
+    display: block;
+    z-index: 100;
 }
 
 h1 {
     color: white;
-    font-family: "Semplicita Pro";
+    font-family: "Semplicita Pro", "Open Sans", Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
 h2 {
     color: #F8B700;
-    font-family: "Semplicita Pro";
+    font-family: "Semplicita Pro", "Open Sans", Arial, Helvetica, sans-serif;
 
 }
 
 h3 {
     color: white;
-    font-family: "Semplicita Pro";
+    font-family: "Semplicita Pro", "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 12.8px;
     padding-left: 15px;
     padding-right: 30px;
@@ -70,7 +105,7 @@ h3 {
 
 p {
     color: white;
-   font-family: "Open Sans";
+   font-family: "Open Sans",Arial,Helvetica,sans-serif;
 }
 
 img{
@@ -79,7 +114,42 @@ img{
 
 
 
+/*HAMBURGER MENU*/
 
+nav {
+    background-color: #211510;
+    border-right: 1px solid #352011;
+}
+
+nav > img {
+    width: 60%;
+    padding-left: 2em;
+}
+
+nav > ul > li > ul {
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
+nav > form {
+    padding: 1em;
+}
+
+nav > form > fieldset > ::placeholder {
+    color: #f8b700;
+    font-family: "Semplicita Pro", "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+nav > form > fieldset > input {
+    margin-left: 0;
+    padding-right: 10em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    background-color: black;
+    text-align: center;
+    border-top: 1px solid #352011;
+    border-bottom: 1px solid #352011;
+}
 
 
 /* code voor de header */
@@ -115,9 +185,7 @@ header > img:nth-of-type(3) {
 
 
 /* code voor de main */
-main{
 
-}
 
 main > article:first-of-type > section:first-of-type > img{
     width: 100%;
@@ -138,7 +206,7 @@ main > article:first-of-type > section:first-of-type h1{
 
 main > article:first-of-type > p {
     color: #ebdec2;
-    font-family: "Open Sans";
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
     text-align: center;
     padding: auto;
     margin: 18px;
@@ -159,7 +227,7 @@ main > article:first-of-type > section:nth-of-type(2){
 main > article:first-of-type > section:nth-of-type(2) a:first-of-type{
     text-transform: uppercase;
     text-decoration: none;
-    font-family: "Open Sans";
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
     color: #f7b10a;
     background-color: black;
     border: 0.1px solid #f7b10a;
@@ -171,7 +239,7 @@ main > article:first-of-type > section:nth-of-type(2) a:first-of-type{
 main > article:first-of-type > section:nth-of-type(2) a:nth-of-type(2){
     text-transform: uppercase;
     text-decoration: none;
-    font-family: "Open Sans";
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
     color: #f7b10a;
     background-color: #5F0D00;
     border: 1px solid #E12E11;
@@ -193,7 +261,7 @@ main > section:first-of-type{
 main > section:first-of-type a{
     color:#f7b10a;
     font-size: 12px;
-    font-family: "Open Sans";
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
     text-decoration: none;
 }
 
@@ -229,7 +297,7 @@ main > section:nth-of-type(2) > article:first-of-type p:nth-of-type(2),
 main > section:nth-of-type(2) > article:nth-of-type(2) p:nth-of-type(2) {
     color:#f7b10a;
     font-size: 13.5px;
-    font-family: "Semplicita Pro Semi";
+    font-family: "Semplicita Pro Semi", "Open Sans", Arial, Helvetica, sans-serif;
     position: absolute;
     padding-left: 15px;
 }
@@ -255,12 +323,16 @@ main > section:nth-of-type(2) > article:nth-of-type(2) p:nth-of-type(2) {
     top: 81em;
 }
 
-main > section:nth-of-type(3) > article:first-of-type {
+/* 3 ARTICLES MET GROTE BRUINE BLOKKEN*/
+
+main > section:nth-of-type(3) > article {
+    margin-bottom: 0.3em;
     background-color: #211510;
+    border-bottom: 1.4px solid #504137;
 }
 
 main > section:nth-of-type(3) > p {
-    font-family: "Open Sans"
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
 }
 
 main > section:nth-of-type(3) > article > img {
@@ -273,128 +345,90 @@ main > section:nth-of-type(3) > article:first-of-type > p:first-of-type {
     text-transform: uppercase;
     text-align: center;
     font-size: 0.8em;
+    padding-top: 1.8em;
 }
 
 main > section:nth-of-type(3) > article:first-of-type > h2 {
     text-align: center;
+    font-size: 1.7em;
 }
 
 main > section:nth-of-type(3) > article:first-of-type > p:nth-of-type(2) {
     color: #ebdec2;
     text-align: center;
     font-size: 0.8em;
-    padding-bottom: 5em;
+    padding-bottom: 6em;
+    padding-top: 1.2em;
+    margin-left: 2.2em;
+    margin-right: 2.2em;
 }
 
-/* .imagewtext {
-    position: relative;
-} */
-
-/* .textoverimg {
-    position: absolute;
-    top: 4em;
-    text-align: center;
-    font-size: 240%;
-    line-height: 1.5;
-    margin: 0;
-} */
-
-
-
-/* .redbutton {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: "Open Sans";
-    color: #f7b10a;
-    background-color: #5F0D00;
-    border: 1px solid #E12E11;
-    padding: 12px 31px 12px 31px;
-    font-size: 13px;
-} */
-
-/* .blackbutton {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: "Open Sans";
-    color: #f7b10a;
-    background-color: black;
-    border: 0.1px solid #f7b10a;
-    padding: 12px 40px 12px 40px;
-    margin-bottom: 25px;
-    font-size: 13px;
-} */
-
-/* .firstbuttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-
-/* .newsheadings {
-    display: flex;
-    flex-direction: row;
-    margin-top: 45px;
-} */
-
-
-/* 
-.yellowlink {
-    color:#f7b10a;
-    font-size: 12px;
-} */
-
-/* .yellowtext {
+main > section:nth-of-type(3) > article:nth-of-type(2) > p:first-of-type {
     color: #ebdec2;
-   font-family: "Open Sans";
-   text-align: center;
-   padding: auto;
-   margin: 18px;
-   margin-bottom: 23px;
-   font-size: 15.5px;
-} */
-
-
-
-/* header > img:first-of-type {
-    max-width: 8%;
-    height: 16px;
-    padding-left: 10px;
-    align-self: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 1.8em;
 }
 
-
-header > img:nth-of-type(2) {
-    width: 9%;
-    size: 100%;
-    padding-top: 0;
+main > section:nth-of-type(3) > article:nth-of-type(2) > h2 {
+    text-align: center;
+    font-size: 1.7em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
-header > img:nth-of-type(3) {
-    width: 6%;
-    height: 23px;
-    align-self: center;
-} */
+main > section:nth-of-type(3) > article:nth-of-type(2) > p:nth-of-type(2) {
+    color: #ebdec2;
+    text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 3em;
+    padding-top: 1.2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
 
-/* .homepageimages {
-    width: 100%;
-    border: 1px solid #504137;
-    z-index: -1;
-    position: relative;
-} */
+/*CAT ARTICLE*/
 
-/* .homepageimage1 {
-    width: 100%;
-} */
+main > section:nth-of-type(3) > article:nth-of-type(3) {
+    background-image: url("../images/woody.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-/* .twoarticles {
-    padding: 15px;
-} */
+main > section:nth-of-type(3) > article:nth-of-type(3) > img {
+    border-bottom: none;
+}
 
-/* .data {
-    font-size: 12px;
-    position: absolute;
-} */
+main > section:nth-of-type(3) > article:nth-of-type(3) > p:first-of-type {
+    color: #ebdec2;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 1.8em;
+}
 
-/* .articletitles {
-    color:#f7b10a;
-} */
+main > section:nth-of-type(3) > article:nth-of-type(3) > h2 {
+    text-align: center;
+    font-size: 1.7em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
+}
+
+main > section:nth-of-type(3) > article:nth-of-type(3) > p:nth-of-type(2),
+main > section:nth-of-type(3) > article:nth-of-type(3) > p:nth-of-type(3)  {
+    color: #ebdec2;
+    text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 3em;
+    padding-top: 1.2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+main > section:nth-of-type(3) > article:nth-of-type(3) > p:nth-of-type(3) {
+    padding-bottom: 2em;
+    background-color: black;
+    border: 1.2px solid #504137;
+}
