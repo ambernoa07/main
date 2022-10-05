@@ -6,7 +6,7 @@
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>World of Warcraft</title>
+	<title>World of Warcraft homepage</title>
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 
 	<link rel="stylesheet" href="CSS/style.css"/>
@@ -14,99 +14,105 @@
 
 <body>
 
-	<nav>
-		<img src="images/logo.png" alt="Big official World of Warcraft logo"/>
-		<form action="../hunter.html">
-			<fieldset>
-				<input type="text" id="search" placeholder="Search..." required>
-			</fieldset>
-		</form>
-		<ul>
-			<li>Home</li>
-			<li>Gameplay
-				<ul>
-					<li>Races</li>
-					<li>Classes</li>
-					<li>Talents</li>
-				</ul>
-			</li>
-			
-	
-			<li>Warcraft Lore</li>
-			<li>Competetive</li>
-			<li>Expansions</li>
-			<li>News</li>
-			<li>Forums</li>
-			<li>Shop</li>
-		</ul>
-	</nav>
-
-
-
 	<header>
-			<img src="images/menuicon.png" alt="Hamburger menu icon"/>
-			<img src="images/mobileiconwow.png" alt="Tiny minimalistic WoW icon"/>
-			<img src="images/profileicon.png" alt="Profile icon"/>
+		<button aria-label="Open hamburgermenu"><img src="images/menuicon.png" alt="Hamburger menu icon"/></button>
+
+		<section>
+			<img src="images/logo.png" alt="Big official World of Warcraft logo"/>
+			<nav>
+				<form action="../hunter.html">
+						<input type="text" id="search" placeholder="Search...">
+						<button type="submit"></button>
+				</form>
+				<ul>
+					<a href="index.html"><li>Home</li></a>
+					<a href="hunter.html"><li>Gameplay</li></a>
+					<a href="#"><li>Warcraft Lore</li></a>
+					<a href="#"><li>Competetive</li></a>
+					<a href="#"><li>Expansions</li></a>
+					<a href="#"><li>News</li></a>
+					<a href="#"><li>Forums</li></a>
+					<a href="#"><li>Shop</li></a>
+				</ul>
+			</nav>	
+		</section>
+
+		<a href="index.html"><img src="images/mobileiconwow.png" alt="Tiny minimalistic WoW icon"/></a>
+
+		<button aria-label="Open profielmenu"><img src="images/profileicon.png" alt="Profile icon"/></button>
 	</header>
 
 	<main>
-		<article>
-			<section>
+		<h1 class="visually-hidden">This is the homepage of World of Warcraft</h1>
+
+		<section aria-label="World of Warcraft homepage introduction">
+			<div>
+				<h2>The season of mastery is now live!</h2>
 				<img src="images/frontpage.jpeg" alt="WoW Mastery image"/>
-				<h1>The season of mastery is<br>now live!</h1>
-			</section>
+			</div>
 
 			<p>Relive the birth of the World of Warcraft saga, level at an accelerated pace, and take on more challenging bosses in WoW Classic Season of Mastery, included with your WoW subscription.
 			</p>
 
-			<section>
-			<a href="#">Learn more</a>
-			<a href="#">Subscribe now</a>
-			</section>
-		</article>
-
-		<section>
-		<h3>Latest news & updates</h3>
-		<a href="#">View all news</a>
+			<div>
+				<a href="#">Learn more</a>
+				<a href="#">Subscribe now</a>
+			</div>
 		</section>
 
-		<section>
-			<article>
+		<div>
+			<h2>Latest news & updates</h2>
+			<a href="#">View all news</a>
+		</div>
+
+		<section aria-label="Links to the two latest news articles">
+			<a href="#"><section>
+				<h2 class="visually-hidden">News article about the latest hotfixes</h2>
 				<img src="images/owlman.jpeg" alt="Steward with a scroll"/>
-				<p>November 17, 2021</p>
-				<p>Hotfixes: November 16, 2021</p>
-			</article>
+				<div>
+					<p>November 17, 2021</p>
+					<p>Hotfixes: November 16, 2021</p>
+				</div>
+			</section></a>
 
-			<article>
+			<a href="#"><section>
+				<h2 class="visually-hidden">News article about the Mastery update in World of Warcraft classic</h2>
 				<img src="images/firemonster.jpeg" alt="Fire boss"/>
-				<p>November 16, 2021</p>
-				<p>WoW Classic Season of Mastery is Now Live!</p>
-			</article>
+				<div>
+					<p>November 16, 2021</p>
+					<p>WoW Classic Season of Mastery is Now Live!</p>
+				</div>
+			</section></a>
 		</section>
 
-		<section>
-			<article>
+		<section aria-label="Three big blocks with links to articles about relavant things to players">
+			<a href="#"><section>
+				<h2 class="visually-hidden">Article link for new players who want to play a free trial</h2>
 				<img src="images/murloc.jpg" alt="Baby murloc transmog"/>
-				<p>New to WoW</p>
-				<h2>Begin Your Adventure</h2>
+				<h3>New to WoW</h3>
+				<p>Begin Your Adventure</p>
 				<p>Start your journey through Azeroth here and try WoW for free!</p>
-			</article>
+			</section></a>
 
-			<article>
+			<a href="#"><section>
+				<h2 class="visually-hidden">Article link for players who are returning and want to know how to get back in the game</h2>
 				<img src="images/dwarf.jpeg" alt="Dwarf running"/>
-				<p>Returning players</p>
-				<h2>Welcome Back to Azeroth</h2>
+				<h3>Returning players</h3>
+				<p>Welcome Back to Azeroth</p>
 				<p>Learn how to get back in the game and play the latest content for WoW and WoW Classic.</p>
-			</article>
+			</section></a>
 			
-
-			<article>
-				<img src="images/catmount.jpg" alt="Magical flying cat mount"/>
-				<p>New shop mount</p>
-				<h2>A Purrfect Friend</h2>
+			<section>
+				<h2 class="visually-hidden">Article link about a new mount in the shop</h2>
+				<section>
+					<img src="images/catmount.jpg" alt="Magical flying cat mount"/>
+					<img class="visible" src="images/rustlingleaves.gif" alt="Rustling leaves gif"/>
+				</section>
+				<h3>New shop mount</h3>
+				<p>A Purrfect Friend</p>
 				<p>With eyes of pure emerald and the tail of a fox, this magical cat can carry you effortlessly from land to land. But its favorite places in all of Azeroth happen to be anywhere the sun shines through the autumn leaves...</p>
-				<p>Click me to see this site through the cats' eyes</p>
-			</article>
+				<button>Click me to see this site through the cats' eyes</button>
+			</section>
 		</section>
 	</main>
 

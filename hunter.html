@@ -6,58 +6,58 @@
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Hunter Class</title>
+	<title>Hunter Class page</title>
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 
 	<link rel="stylesheet" href="CSS/hunterstyle.css"/>
 </head>
 
 <body>
-    <nav>
-		<img src="images/logo.png" alt="Big official World of Warcraft logo"/>
-		<form action="../hunter.html">
-			<fieldset>
-				<input type="text" id="search" placeholder="Search..." required>
-			</fieldset>
-		</form>
-		<ul>
-			<li>Home</li>
-			<li>Gameplay
-				<ul>
-					<li>Races</li>
-					<li>Classes</li>
-					<li>Talents</li>
-				</ul>
-			</li>
-			
-	
-			<li>Warcraft Lore</li>
-			<li>Competetive</li>
-			<li>Expansions</li>
-			<li>News</li>
-			<li>Forums</li>
-			<li>Shop</li>
-		</ul>
-	</nav>
-
 
     <header>
-        <img src="images/menuicon.png" alt="Hamburger menu icon"/>
-        <img src="images/mobileiconwow.png" alt="Tiny minimalistic WoW icon"/>
-        <img src="images/profileicon.png" alt="Profile icon"/>
-    </header>
+		<button aria-label="Open hamburgermenu"><img src="images/menuicon.png" alt="Hamburger menu icon"/></button>
 
+        <section>
+			<img src="images/logo.png" alt="Big official World of Warcraft logo"/>
+			<nav>
+				<form action="../hunter.html">
+						<input type="text" id="search" placeholder="Search...">
+						<button type="submit"></button>
+				</form>
+				<ul>
+					<a href="index.html"><li>Home</li></a>
+					<a href="hunter.html"><li>Gameplay</li></a>
+					<a href="#"><li>Warcraft Lore</li></a>
+					<a href="#"><li>Competetive</li></a>
+					<a href="#"><li>Expansions</li></a>
+					<a href="#"><li>News</li></a>
+					<a href="#"><li>Forums</li></a>
+					<a href="#"><li>Shop</li></a>
+				</ul>
+			</nav>	
+		</section>
+
+		<a href="index.html"><img src="images/mobileiconwow.png" alt="Tiny minimalistic WoW icon"/></a>
+
+		<button aria-label="Open profielmenu"><img src="images/profileicon.png" alt="Profile icon"/></button>
+	</header>
+    
     <main>
-        <section>
+        <h1 class="visually-hidden">This is the hunter class page of World of Warcraft</h1>
+
+        <div>
             <img src="images/hunterarea.jpeg" alt="Dark hunter area"/>
-            <h1>Hunter</h1>
+            <h2>Hunter</h2>
             <p>Damage</p>
-        </section>
+        </div>
 
         <section>
-            <h2>Inescapable Stalkers</h2>
+            <h3>Inescapable Stalkers</h3>
+
             <p>From an early age, the call of the wild draws some adventurers from the comfort of their homes into the unforgiving primal world outside. Those who endure become hunters. Masters of their environment, they are able to slip like ghosts through the trees and lay traps in the paths of their enemies.</p>
-            <h2>Class Information</h2>
+
+            <h3>Class Information</h3>
+
             <p>Hunters battle their foes at a distance or up close, commanding their pets to attack while they nock their arrows, fire their guns, or ready their polearms. Though their weapons are effective at short and long ranges, hunters are also highly mobile. They can evade or restrain their foes to control the arena of battle.</p>
         </section>
 
@@ -75,7 +75,7 @@
         </section>
 
         <section>
-            <h2>Specializations</h2>
+            <h3>Specializations</h3>
             <p>Hunter talents primarily strengthen their pets; improve the damage, effectiveness, and duration of their traps; and increase the speed and power of their ranged attacks.</p>
         </section>
 
@@ -85,129 +85,150 @@
             <a href="#"><img src="images/survival.png" alt="Survival specialization camouflage"><p>Survival</p></a>
         </section>
 
-        <h2>Features</h2>
         <section>
+            <h3>Features</h3>
+
             <section>
                 <img src="images/melee.jpeg" alt="Melee axe"/>
-                <img src="images/bow.jpeg" alt="Ranged bow"/>
-                <img src="images/pets.jpeg" alt="Taming glove"/>
-                <img src="images/solo.jpeg" alt="Sharp weapon"/>
-            </section>
-            <section>
+                <section>
                     <p>Melee Damage</p>
                     <p>Hunters are rugged trackers who can use venom, explosives and traps to damage enemies up close.</p>
-                    <p>Ranged Damage</p>
+                </section>
+
+                <img src="images/bow.jpeg" alt="Ranged bow"/>
+                <section>
+                    <p>Ranged damage</p>
                     <p>Whether wielding bows, guns, or crossbows, hunters are deadly with ranged weapons. They are capable of dishing out consistently high damage.</p>
+                </section>
+
+                <img src="images/pets.jpeg" alt="Taming glove"/>
+                <section>
                     <p>Pets</p>
                     <p>Hunters tame the beasts of the wild, and those beasts serve in return by assaulting their enemies and shielding them from harm.</p>
+                </section>
+
+                <img src="images/solo.jpeg" alt="Sharp weapon"/>
+                <section>
                     <p>Solo play</p>
                     <p>Thanks to their pets and damage output, hunters are effective at completing quests and leveling quickly, even when they’re alone.</p>
-            </section>
-        </section>
-
-        <h2>Available Races</h2>
-        <section>
-            <section>
-                <img src="images/draenei.png" alt="Draenei"/>
-                <img src="images/gnome.jpg" alt="Gnome"/>
-                <img src="images/nightelf.png" alt="Night elf"/>
-                <img src="images/bloodelf.png" alt="Blood elf"/>
-                <img src="images/orc.png" alt="Orc"/>
-                <img src="images/troll.png" alt="Troll"/>
-                <img src="images/pandaren.png" alt="Pandaren"/>
-            </section>
-            <section>
-                <section>
-                <p>Dreanei</p>
-                <p>Alliance</p>
-                </section>
-                <section>
-                <p>Gnome</p>
-                <p>Alliance</p>
-                </section>
-                <section>
-                <p>Night Elf</p>
-                <p>Alliance</p>
-                </section>
-                <section>
-                <p>Blood Elf</p>
-                <p>Horde</p>
-                </section>
-                <section>
-                <p>Orc</p>
-                <p>Horde</p>
-                </section>
-                <section>
-                <p>Troll</p>
-                <p>Horde</p>
-                </section>
-                <section>
-                <p>Pandaren</p>
-                <p>Alliance or Horde</p>
-                </section>
-            </section>
-            <section>
-                <img src="images/dwarf.png" alt="Dwarf"/>
-                <img src="images/human.png" alt="Human"/>
-                <img src="images/worgen.png" alt="Worgen"/>
-                <img src="images/goblin.png" alt="Goblin"/>
-                <img src="images/tauren.png" alt="Tauren"/>
-                <img src="images/undead.png" alt="Undead"/>
-            </section>
-            <section>
-                <section>
-                <p>Dwarf</p>
-                <p>Alliance</p>
-                </section>
-                <section>
-                <p>Human</p>
-                <p>Alliance</p>
-                </section>
-                <section>
-                <p>Worgen</p>
-                <p>Alliance</p>
-                </section>
-                <section>
-                <p>Goblin</p>
-                <p>Horde</p>
-                </section>
-                <section>
-                <p>Tauren</p>
-                <p>Horde</p>
-                </section>
-                <section>
-                <p>Undead</p>
-                <p>Horde</p>
                 </section>
             </section>
         </section>
 
         <section>
-            <h2>Learn About Other Classes</h2>
+            <h3>Available races</h3>
+            
+            <section>
+                <div>
+                    <img src="images/humanrace.png" alt="Human race female">
+                    <p>Human</p>
+                    <img src="images/alliance.png" alt="Alliance badge">
+                    <audio src="sounds/humanvoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/dwarfrace.png" alt="Dwarf race male">
+                    <p>Dwarf</p>
+                    <img src="images/alliance.png" alt="Alliance badge">
+                    <audio src="sounds/dwarfvoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/nightelfrace.png" alt="Night elf race female">
+                    <p>Night Elf</p>
+                    <img src="images/alliance.png" alt="Alliance badge">
+                    <audio src="sounds/nightelfvoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/gnomerace.png" alt="Gnome race male">
+                    <p>Gnome</p>
+                    <img src="images/alliance.png" alt="Alliance badge">
+                    <audio src="sounds/gnomevoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/draeneirace.png" alt="Draenei race female">
+                    <p>Draenei</p>
+                    <img src="images/alliance.png" alt="Alliance badge">
+                    <audio src="sounds/draeneivoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/worgenrace.png" alt="Worgen race male">
+                    <p>Worgen</p>
+                    <img src="images/alliance.png" alt="Alliance badge">
+                    <audio src="sounds/worgenvoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/pandarenrace.png" alt="Alliance pandaren race female">
+                    <p>Pandaren</p>
+                    <img src="images/alliance.png" alt="Alliance badge">
+                    <audio src="sounds/pandarenfemalevoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/orcrace.png" alt="Orc race male">
+                    <p>Orc</p>
+                    <img src="images/horde.png" alt="Horde badge">
+                    <audio src="sounds/orcvoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/undeadrace.png" alt="Undead race female">
+                    <p>Undead</p>
+                    <img src="images/horde.png" alt="Horde badge">
+                    <audio src="sounds/undeadvoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/taurenrace.png" alt="Tauren race male">
+                    <p>Tauren</p>
+                    <img src="images/horde.png" alt="Horde badge">
+                    <audio src="sounds/taurenvoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/trollrace.png" alt="Troll race male">
+                    <p>Troll</p>
+                    <img src="images/horde.png" alt="Horde badge">
+                    <audio src="sounds/trollvoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/bloodelfrace.png" alt="Bloof elf race female">
+                    <p>Blood Elf</p>
+                    <img src="images/horde.png" alt="Horde badge">
+                    <audio src="sounds/bloodelfvoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/goblinrace.png" alt="Goblin race female">
+                    <p>Goblin</p>
+                    <img src="images/horde.png" alt="Horde badge">
+                    <audio src="sounds/goblinvoice.mp3"></audio>
+                </div>
+                <div>
+                    <img src="images/pandarenhorderace.png" alt="Horde pandaren race male">
+                    <p>Pandaren</p>
+                    <img src="images/horde.png" alt="Horde badge">
+                    <audio src="sounds/pandarenmalevoice.mp3"></audio>
+                </div>
+            </section>
+        </section>
 
-            <article>
+        <section>
+            <h3>Learn About Other Classes</h3>
+
+            <a href="#"><section>
                 <img src="images/warrior.png" alt="Orc warrior"/>
                 <section>
-                <p>Warrior</p>
-                <p>Tank, Damage</p>
-                <p>For as long as war had raged, heroes from every race have aimed to master the art of battle. Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat.</p>
+                    <p>Warrior</p>
+                    <p>Tank, Damage</p>
+                    <p>For as long as war had raged, heroes from every race have aimed to master the art of battle. Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat.</p>
                 </section>
-            </article>
-            <article>
+            </section></a>
+            
+            <a href="#"><section>
                 <img src="images/priest.png" alt="Dwarf priest"/>
                 <section>
-                <p>Priest</p>
-                <p>Healer, Damage</p>
-                <p>For millennia they have left behind the confines of their temples and the comfort of their shrines so they can support their allies in war-torn lands.</p>
+                    <p>Priest</p>
+                    <p>Healer, Damage</p>
+                    <p>For millennia they have left behind the confines of their temples and the comfort of their shrines so they can support their allies in war-torn lands.</p>
                 </section>
-            </article>
+            </section></a>
         </section>
 
     </main>
+    <script src="scripts/hunterscript.js"></script>
 
-
-
-
-
-    <script src="scripts/script.js"></script>
 </body>

@@ -131,12 +131,7 @@ samen met je groepje opstellen
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
--	Waar classes gebruiken?
--	Media queries
--	News articles positioneren
--	animeren 
--	Genoeg alt labels voor screenreader?
-
+Ik wilde weten hoe ik de gradient achtergrond moest toepassen. 
 
 
 ### Verslag van meeting
