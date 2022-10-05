@@ -238,16 +238,18 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
+Ik heb in de laatste week nog besloten dat ik mijn 'available races' sectie anders wil gaan doen. Toen ik vorig jaar aan dit vak werkte, had ik die sectie anders neergezet dan op de originele website, omdat ik dacht dat dat te moeilijk zou zijn. Ik was nu toch niet helemaal tevreden met mijn manier, dus ik wilde het toch van de site gaan namaken (een caroussel). Dit is gelukt, behalve dat het poppetje groter wordt bij een hover. Wel speelt er toepasselijke audio af bij hover.
 
 ### Screenshot(s)
-<img src="./images/eindproduct1.JPG" width="375px" alt="Screenshot van de homepage">
-<img src="./images/eindproduct2.JPG" width="375px" alt="Screenshot van de homepage">
-<img src="./images/eindproduct3.JPG" width="375px" alt="Screenshot van de homepage">
-<img src="./images/eindproduct4.JPG" width="375px" alt="Screenshot van de hunter page">
-<img src="./images/eindproduct5.JPG" width="375px" alt="Screenshot van de hunter page">
-<img src="./images/eindproduct6.JPG" width="375px" alt="Screenshot van de hunter page">
-<img src="./images/eindproduct7.JPG" width="375px" alt="Screenshot van de hunter page">
-
+<img src="./images/eind1.JPG" width="375px" alt="Screenshot van de homepage">
+<img src="./images/eind2.JPG" width="375px" alt="Screenshot van de homepage">
+<img src="./images/eind3.JPG" width="375px" alt="Screenshot van de homepage">
+<img src="./images/eind4.JPG" width="375px" alt="Screenshot van de hunter page">
+<img src="./images/eind5.JPG" width="375px" alt="Screenshot van de hunter page">
+<img src="./images/eind6.JPG" width="375px" alt="Screenshot van de hunter page">
+<img src="./images/eind7.JPG" width="375px" alt="Screenshot van de hunter page">
+<img src="./images/eind8.JPG" width="375px" alt="Screenshot van de hunter page">
+<img src="./images/eind9.JPG" width="375px" alt="Screenshot van de hunter page">
 
 </details>
 
