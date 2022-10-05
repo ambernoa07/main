@@ -241,7 +241,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Ik heb in de laatste week nog besloten dat ik mijn 'available races' sectie anders wil gaan doen. Toen ik vorig jaar aan dit vak werkte, had ik die sectie anders neergezet dan op de originele website, omdat ik dacht dat dat te moeilijk zou zijn. Ik was nu toch niet helemaal tevreden met mijn manier, dus ik wilde het toch van de site gaan namaken (een caroussel). Dit is gelukt, behalve dat het poppetje groter wordt bij een hover. Wel speelt er toepasselijke audio af bij hover.
 
 ### Screenshot(s)
-<img src="./images/eind1.JPG" width="375px" alt="Screenshot van de homepage">
+<img src="images/eind1.JPG" width="375px" alt="Screenshot van de homepage">
 <img src="./images/eind2.JPG" width="375px" alt="Screenshot van de homepage">
 <img src="./images/eind3.JPG" width="375px" alt="Screenshot van de homepage">
 <img src="./images/eind4.JPG" width="375px" alt="Screenshot van de hunter page">
